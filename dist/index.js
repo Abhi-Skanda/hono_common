@@ -1,4 +1,4 @@
-import z, { custom } from "zod";
+import z from "zod";
 export const signupInput = z.object({
     email: z.email('Invalid email'),
     password: z.string()
@@ -28,5 +28,11 @@ export const updateBlogInput = z.object({
     title: z.string().min(1),
     content: z.string().min(1),
     id: z.number().min(1)
+});
+export const deleteBlogPost = z.object({
+    id: z.number()
+});
+export const getBlogPost = z.object({
+    id: z.number()
 });
 //# sourceMappingURL=index.js.map

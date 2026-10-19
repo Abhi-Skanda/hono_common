@@ -1,1 +1,1 @@
-{"root":["./src/index.ts"],"version":"5.9.3"}
+{"version":"7.0.2","root":["./src/index.ts"],"packageJsons":["./node_modules/zod/package.json","./node_modules/zod/v4/classic/package.json","./node_modules/zod/v4/core/package.json","./node_modules/zod/v4/locales/package.json","./package.json"]}
