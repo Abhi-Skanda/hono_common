@@ -1,4 +1,4 @@
-import z, { custom } from "zod";
+import z from "zod";
 
 export const signupInput = z.object({
     email : z.email('Invalid email'),
